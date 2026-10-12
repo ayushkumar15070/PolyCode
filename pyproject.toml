@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polycode-language"
+version = "0.0.1"
+description = "A multi-language programming environment supporting Python, C++, and JavaScript"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+polycode = "polycode_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["core*", "polycode_cli*"]
+

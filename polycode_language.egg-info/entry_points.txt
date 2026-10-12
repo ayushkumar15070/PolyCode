@@ -1,0 +1,2 @@
+[console_scripts]
+polycode = polycode_cli.cli:main

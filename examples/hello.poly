@@ -1,0 +1,8 @@
+@python
+print("Hello from Python!")
+
+@cpp
+cout << "Hello from C++" << endl;
+
+@javascript
+console.log("Hello from JavaScript");

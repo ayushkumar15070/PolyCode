@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: polycode-language
+Version: 0.0.1
+Summary: A multi-language programming environment supporting Python, C++, and JavaScript
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+yeah now
